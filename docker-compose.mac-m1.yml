@@ -1,0 +1,3 @@
+services:
+  web:
+    image: fiona17/refugerestrooms_for_mac_m1
