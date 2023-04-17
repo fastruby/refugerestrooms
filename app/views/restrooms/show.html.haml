@@ -1,7 +1,7 @@
 .row.headroom
   .col-xs-12
     .listItem.showPageItem{"data-id" => @restroom.id}
-      = render partial: 'restrooms/restroom', locals: { restroom: @restroom }
+      = render partial: 'restrooms/restroom.html', locals: { restroom: @restroom }
 
 .showPageContent
   .row
