@@ -47,3 +47,6 @@ RUN bundle install
 # Install Node.js packages with Yarn
 COPY package.json yarn.lock /refugerestrooms/
 RUN yarn install --pure-lockfile
+
+# Precompile assets for the test env, to avoid timeouts on the first test run
+RUN RAILS_ENV=test rake assets:precompile
