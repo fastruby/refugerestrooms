@@ -1,9 +1,7 @@
 source 'https://rubygems.org'
 ruby '3.1.2'
 
-gem 'rails', '6.1.7'
-
-gem 'activeadmin', '~> 2.1'
+gem 'activeadmin', '~> 2.10.1'
 gem 'bootsnap', require: false
 gem 'bootstrap-sass', '>= 3.4.1'
 gem 'bugsnag'
